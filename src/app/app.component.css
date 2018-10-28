@@ -1,0 +1,24 @@
+header {
+    text-align: center;
+    background-color: gray;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+}
+
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
