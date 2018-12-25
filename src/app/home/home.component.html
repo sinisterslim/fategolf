@@ -1,3 +1,16 @@
-<p>
-  home works!
-</p>
+<div *ngFor="let article of articles">
+    <div class="card">
+        <div class="card-body">
+            <div class="float-left headerImage">
+                <img src="{{article.headerImage}}" width="150px" />
+            </div>
+
+            <div class="float-left articlePart">
+                <h5 class="card-title">{{article.title}}</h5>
+                <h6 class="card-subtitle mb-2">{{article.author}}</h6>
+                <h6 class="card-subtitle mb-2 text-muted">{{article.date}}</h6>
+                <p class="card-text article">{{article.article}}</p>    
+            </div>
+        </div>
+    </div>
+</div>

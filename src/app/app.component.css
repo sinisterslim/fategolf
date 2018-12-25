@@ -6,6 +6,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 2;
 }
 
 footer {
@@ -16,9 +17,11 @@ footer {
     background-color: gray;
     height: 100px;
     width: 100%;
+    z-index: 2;
 }
 
 main {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    /* Adding 10px simulates padding... */
+    margin-top: 110px;
+    margin-bottom: 110px;
 }

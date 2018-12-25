@@ -1,0 +1,11 @@
+.headerImage {
+    width: 200px;
+}
+
+.articlePart {
+    width: calc(100% - 200px);
+}
+
+.article {
+    white-space: pre-wrap;
+}
